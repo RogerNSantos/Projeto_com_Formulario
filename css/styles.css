@@ -1,0 +1,127 @@
+/*reset ormatação da página*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+    text-align: center;
+}
+
+p, label{
+    color: #444;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea{
+    width: 400px;
+}
+
+textarea{
+    padding: 10px 5px;
+}
+
+/*Formatação header*/
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #B0E0E6;
+    font-size: 25px;
+}
+
+.header h3{
+    color: #333;
+    margin-top: 0px;
+}
+
+/*Formatação form container*/
+.form-container{
+    background-color: #F5FFFA;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+/*Formatação form-header*/
+.form-header{
+    border-bottom: 2px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #333;
+    border-bottom: 4px solid #dfdfdf;
+    width: 100px;
+    text-align: center;
+    margin: 0px auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/*Formatação form body*/
+.form-body{
+    padding: 30px;
+}
+
+.form-title{
+    margin-bottom: 15px;
+}
+
+.form-body p{
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+}
+
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input p{
+    margin-bottom: 15px;
+}
+
+.btn-submit{
+    background-color: #B0E0E6;
+    color: #333;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transform: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #f0ebf8;
+    border-color: #B0E0E6;
+    color: black;
+}
